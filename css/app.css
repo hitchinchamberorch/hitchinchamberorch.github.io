@@ -1,0 +1,126 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+h4 {
+    margin-top: 1.5em;
+}
+
+.hco-logo {
+    background: url(HCO_Logo.svg) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 174px;
+    height: 100px;
+}
+
+.fi-social-twitter {
+    color: #1da1f2;
+    font-size: 3rem;
+}
+
+.fi-social-facebook {
+    color: #3a5795;
+    font-size: 3rem;
+}
+
+.header-logo {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.header-logo > a {
+    display: inline-block;
+}
+
+.header-social-links {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+
+.header-social-links > span {
+    vertical-align: middle;
+}
+
+.header-social-links > a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-main-nav {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+.event {
+    display: inline-block;
+    text-align: center;
+    width: 7em;
+}
+
+.event-month {
+    display: block;
+}
+
+.event-date {
+    display: block;
+    font-size: 3em;
+    border-left: solid 1px #d9d9d9;
+    border-right: solid 1px #d9d9d9;
+}
+
+.event-time {
+    display: block;
+    background-color: #d9d9d9;
+}
+
+.hero {
+    margin: 1em 0;
+}
+
+.spring {
+    color: #fff;
+    background-color: #71B072 !important;
+    border-color: #71B072 !important;
+}
+
+.summer {
+    color: #fff;
+    background-color: #ED6152 !important;
+    border-color: #ED6152 !important;
+}
+
+.autumn {
+    color: #fff;
+    background-color: #B33CA7 !important;
+    border-color: #B33CA7 !important;
+}
+
+.winter {
+    color: #fff;
+    background-color: #3F85C4 !important;
+    border-color: #3F85C4 !important;
+}
+
+.table th {
+    width: 30%;
+}
+
+@media (max-width: 767px) {
+    .hco-logo {
+        width: 139px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 549px) {
+    .header-main-nav {
+        position: static;
+    }
+}
